@@ -88,8 +88,7 @@ variables
   h1,
   h2,
   h3,
-  h4,
-  {
+  h4 {
     letter-spacing: var(--spacing);
     text-transform: capitalize;
     line-height: 1.25;
@@ -97,7 +96,7 @@ variables
     font-family: var(--ff-primary);
   }
  h1{
-    font-size: 3rem;
+    font-size: 4rem;
  }
  h2{
     font-size: 2rem;
@@ -112,9 +111,11 @@ variables
     margin-bottom: 1.25rem;
     color: var(--clr-grey-5);
  }
+
+
 @media screen and (min-width: 800px) {
     h1{
-        font-size: 3rem;
+        font-size: 4rem;
      }
     
      h2{
@@ -134,8 +135,9 @@ variables
      h1,
      h2,
      h3,
-     h4{
+     h4 {
         line-height: 1;
+        text-transform: capitalize;
      }
 }
 
@@ -160,7 +162,10 @@ variables
     color: var(--clr-white);
     background: var(--clr-black);
   }
-/* section */
+
+
+
+  /* section */
 .section {
     padding: 5rem 0;
   }
